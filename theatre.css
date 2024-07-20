@@ -1,0 +1,30 @@
+.bg{
+    background-image: url('/view-black-white-theatre-room.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.nn:hover{
+    transform: scale(1.1);
+}
+.tt:hover{
+    transform:scale(1.2);
+}
+.im:hover{
+      transform: scale(1.1) ;
+      margin: 1px;
+}
+
+.of{
+    animation: off 4s 3s 1 ;
+}
+@keyframes off {
+   50%{
+      transform: rotate(360deg);
+   }
+}
+@media  screen and (max-width:600px){
+    .tb{
+        
+    }
+}
